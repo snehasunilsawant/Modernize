@@ -1,0 +1,264 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+/* ============ Wrapper ============   */
+#wrapper{
+  background-color: #1a1a1a;
+  height:1412px;
+  width:1200px;
+  padding:10px 10px 0px 10px;
+}
+
+
+/* ============ Header Starts Here ============ */
+#header{
+  height:110px;
+  background-color: #1a1a1a;
+  padding:10px;
+}
+
+#header img{
+  width:310px;
+  height:80px;
+  padding:10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#header h3{
+  font-family: arial;
+  width:825px;
+  height:80px;
+  color:#e4e4e4;
+  padding: 20px 10px 10px 10px;
+  background-color: #1a1a1a;
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+}
+/*============ Header Ends Here ============ */
+
+
+/* ============ Toolbar Starts Here ============ */
+
+#toolbarwithImage{
+  height:500px;
+  box-shadow: 5px 3px #3b3b3b;
+}
+
+#toolbar{
+  height:50px;
+  background: linear-gradient(#4f4f4f, #2c2c2c);
+
+}
+
+.toolbarli{
+  height:30px;
+  width :120px;
+  font-size: 15px;
+  font-family :arial;
+  font-weight: bold;
+  text-align: center;;
+  color:#dfdfd9;
+  line-height: 30px;
+  margin:10px 0px;
+  display: inline-block;
+  border-right: 2px solid #4e4e4e;
+  vertical-align: top;
+}
+
+.toolbarlicolorchange{
+  color: #979798;
+}
+
+#toolbarwithImage img{
+  height:450px;
+  width:1200px;
+  display: inline-block;
+
+}
+.lastitem{
+  width:360px;
+  vertical-align: top;
+  border-right: 2px solid ##3e3e3e;
+}
+
+/* ============ toolbarwithImage Ends Here ============ */
+
+/* ============ Options Starts Here ============ */
+
+#Options{
+  background-color: #1a1a1a;
+  height:150px;
+  width:1188px;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  display: inline-block;
+}
+
+.optionSmallBoxes{
+  width:270px;
+  height:100px;
+  margin: 0px 10px;
+  background-color: #1a1a1a;
+  display: inline-block;
+  padding: 20px 0px;
+}
+
+.optionSmallBoxes img{
+  height:50px;
+  width:50px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.optionSmallBoxesPara{
+  width:200px;
+  padding-left: 10px;
+  display: inline-block;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+.optionSmallBoxesPara h3{
+  margin-top: 10px;
+  font-family: arial;
+  font-size: 20px;
+  color:#ec6f23;
+  padding-bottom: 10px;
+}
+
+.optionSmallBoxesPara p{
+  font-size: 14px;
+  color:#d7d4ca;
+}
+
+/* ============ options Ends Here ============ */
+
+/* ============ Buy now starts Here ============ */
+
+#buyNow{
+  height:170px;
+  /*margin: 20px;*/
+  background: repeating-linear-gradient(
+  -45deg,
+  #222,
+  #070707 4px,
+  #070707 5px,
+  #333 2px
+);
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#buyNowtext{
+  display: inline-block;
+  width: 720px;
+  margin: 20px 20px 20px 40px;
+}
+
+#buyNowtext h3{
+  display: inline-block;
+  color:#d0d0d0;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+#buyNowtext p{
+  display: inline-block;
+  font-weight: bold;
+  font-size: 13px;
+  color:#989898;
+}
+
+#buyNowbutton{
+  height:40px;
+  width:100px;
+  margin: 20px;
+  color:#f8f7f6;
+  font-weight: bold;
+  line-height: 40px;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  background-color: #ee8536;
+  vertical-align: top;
+  padding:0px 20px;
+  margin-left: 225px;
+}
+
+/* ============ Buy now Ends Here ============ */
+
+/* ============ Main Content Starts Here ============ */
+#main_contain_header{
+  height:30px;
+  padding: 20px 0px;
+  background-color: #1a1a1a;
+  font-family: arial;
+  }
+
+#main_contain_header h3{
+  padding-left: 15px;
+  display: inline-block;
+  color:#e8f1f3;
+  line-height: 30px;
+}
+
+#main_contain_header p{
+  display: inline-block;
+  font-style: italic;
+  color:#e16f24;
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 940px;
+}
+
+#main_contain_body{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  height:335px;
+  background-color: #1a1a1a;
+  display: block;
+  align-items: center;
+}
+
+.box{
+  width:275px;
+  margin:10px;
+  height:315px;
+  background-color: #1a1a1a;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.box img{
+  width:250px;
+  height:165px;
+  border: 5px solid #363636;
+}
+
+.box h4{
+  padding: 10px 0px;
+  font-size: 16px;
+  color:#d06c27;
+}
+
+.box p{
+  font-size: 12px;
+  font-weight: bold;
+  color: #bcc6ca;
+}
+/* ============ Main Content Ends Here ============ */
+
+#footer{
+  font-family: arial;
+  font-size: 13px;
+  font-weight: bold;
+  color:#70736f;
+  background-color: #1a1a1a;
+  height:20px;
+  line-height: 25px;
+  display: block;
+  text-align: right;
+  padding-right: 20px;
+}
